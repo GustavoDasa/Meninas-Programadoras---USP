@@ -1,0 +1,11 @@
+z = []
+
+while True:
+    x = input()
+    z.append(x)
+    if x == 'f':
+        if z.count('m') > (0.5*len(z)):
+            print('ativo')
+        else:
+            print('sedentário')
+        break

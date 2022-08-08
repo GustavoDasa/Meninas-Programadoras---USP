@@ -1,0 +1,8 @@
+notas = int(input())
+
+carteira = []
+
+while len(carteira) < notas:
+    carteira.append(int(input()))
+
+print(sum(carteira))

@@ -1,0 +1,11 @@
+x = int(input())
+
+while True:
+    t = int(input())
+    if t == x:
+        print('igual')
+        break
+    elif t < x:
+        print('maior')
+    else:
+        print('menor')

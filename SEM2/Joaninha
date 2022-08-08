@@ -1,0 +1,15 @@
+bat = int(input())
+
+while True:
+    comando = []
+    if bat <= 5:
+        print('recarregar:', bat)
+        break
+    comando.append(input().upper())
+    comando.append(input().upper())
+    if comando[0] =='B' or comando[1] =='A':
+        bat -= 5
+        print('virar:', bat)
+    else:
+        bat -= 1
+        print('avançar:', bat)

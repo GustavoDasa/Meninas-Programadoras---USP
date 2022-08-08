@@ -1,0 +1,9 @@
+encontrar = input()
+
+texto = input()
+
+normal = texto.count(encontrar)
+capit = texto.lower().count(encontrar.lower())
+
+print(normal)
+print(capit)
