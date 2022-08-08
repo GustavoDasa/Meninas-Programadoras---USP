@@ -1,8 +1,0 @@
-p = input()
-z = []
-while True:
-    x = input()
-    z.append(x.count(p))
-    if x == '.':
-        print(sum(z))
-        break

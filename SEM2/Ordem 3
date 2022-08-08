@@ -1,7 +1,0 @@
-t = []
-while True:
-    x = input()
-    t.append(x)
-    if x == '.':
-        print(len(t))
-        break

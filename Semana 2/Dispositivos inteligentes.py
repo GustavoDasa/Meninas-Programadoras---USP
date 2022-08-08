@@ -1,3 +1,5 @@
+# Verifica a atividade da pessoa, baseado nas entradas, sendo "m"=exerceu atividade, e "f" para finalizar
+
 z = []
 
 while True:
