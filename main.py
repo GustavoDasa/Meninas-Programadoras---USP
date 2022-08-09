@@ -41,8 +41,12 @@ def Navegar():
     arq = int(input('\nInsira o valor do "Arquivo" correpondente: '))
     print('')
 
-
-Navegar()
-
-exec(open(f'Semana {semana}/{x[arq]}.py').read())
-print("Obrigado")
+while True:
+    try:
+        Navegar()
+        exec(open(f'Semana {semana}/{x[arq]}.py').read())
+    except:
+        print('Tente Novamente!')
+        continue
+    finally:
+        print("Volte do início...")
