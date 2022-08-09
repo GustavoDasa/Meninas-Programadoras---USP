@@ -14,7 +14,7 @@ darq2 = {
 darq3 = {}
 darq4 = {}
 
-dsem = {2: 'Semana 2', 3: 'Semana 3', 4: 'Semana 4'}
+dsem = {2: 'Semana 2'}#, 3: 'Semana 3', 4: 'Semana 4'}
 dsarq = {2: darq2, 3: darq3, 4: darq4}
 
 
