@@ -1,3 +1,48 @@
-"Soluções dos exercícios práticos do Curso Meninas programadoras USP."
+darq1 = {}
+darq2 = {
+    1: '1-Bolo de Aniversário',
+    2: '2-Carteira - if while',
+    3: '3-Dispositivos inteligentes',
+    4: '4-Infinito enquanto dure',
+    5: '5-Joaninha',
+    6: '6-Ordem 2',
+    7: '7-Ordem 3',
+    8: '8-Ordem 4',
+    9: '9-String e count',
+    10: '10-Tentativa e erro',
+    11: '11-Volei'
+}
+darq3 = {}
+darq4 = {}
 
-"Monitor Voluntário da Turma 11 (Ago/2022)"
+dsem = {1: 'Semana 1', 2: 'Semana 2', 3: 'Semana 3', 4: 'Semana 4'}
+dsarq = {1: darq1, 2: darq2, 3: darq3, 4: darq4}
+
+darq2[4]
+
+semana = 0
+arq = 0
+print(
+    'Para selecionar um arquivo para rodar, navegue no diretório inserindo o valor correpondente.\n\nPara maior compreensão, visualize o arquivo no diretório antes de executá-lo.'
+)
+
+
+def Navegar():
+    global x, arq, semana
+    for i in dsem:
+        print(i, 'para: ', dsem[i])
+
+    semana = int(input('\nInsira o valor da "Semana" correpondente: '))
+    x = dsarq[semana]
+    print('')
+    for i in x:
+        print(x[i])
+
+    arq = int(input('\nInsira o valor do "Arquivo" correpondente: '))
+    print('')
+
+
+Navegar()
+
+exec(open(f'Semana {semana}/{x[arq]}.py').read())
+print("Obrigado")
