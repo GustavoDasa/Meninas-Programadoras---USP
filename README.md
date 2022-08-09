@@ -5,7 +5,7 @@ O arquivo "Main.py" é o script de utilização do replit para execução online
 código específico seguindo as instruções contidas nele.
 
 É aconselhável a vizualização do arquivo antes da execução.
-Devido ao Beecorwd, os códigos são adaptados para corresponder aos requisitos. 
+
 
 Utilize o link abaixo para acessá-lo:
 https://replit.com/@GustavoDasa/Meninas-Programadoras-USP#main.py
