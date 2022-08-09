@@ -8,18 +8,18 @@ Programa embarcado na Joaninha (aspirador automatizado)
 - Cada movimento de avançar consome 1% de bateria. Cada movimento de virar consome  5% de bateria.
 '''
 
-bateria = int(input())
+bateria = int(input('Insira o valor da Bateria da Joaninha: '))
 
 while True:
     comando = []
     if bateria <= 5:
-        print('recarregar:', bateria)
+        print(f'\nRecarregue a bateria: {bateria}% restantes')
         break
-    comando.append(input().upper())
-    comando.append(input().upper())
+    comando.append(input('\nDigite "b" se bateu ou "l" se estiver livre: ').upper())
+    comando.append(input('\nDigite "p" se houver piso ou "a" se houver um abismo: ').upper())
     if comando[0] =='B' or comando[1] =='A':
         bateria -= 5
-        print('virar:', bateria)
+        print(f'\nVirar: {bateria}% restantes')
     else:
         bat -= 1
-        print('avançar:', bateria)
+        print(f'\nAvançar: {bateria}% restantes')

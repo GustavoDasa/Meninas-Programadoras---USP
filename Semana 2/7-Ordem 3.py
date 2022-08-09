@@ -1,17 +1,13 @@
-'''
-Seu programa deve ler entradas do usuário continuamente e imprimir o total de linhas lidas. 
+print('\nSeu programa deve ler entradas do usuário continuamente e imprimir o total de linhas lidas.') 
 
-deve parar apenas quando quando receber o caractere ponto final '.'
-
-ao final, deve imprimir o número de linhas lidas, incluindo a que sinaliza a parada do programa
-'''
+print('\nDeve parar apenas quando quando receber o caractere ponto final "."')
 
 
 texto = []
 
 while True:
-    inserido = input()
+    inserido = input('\nInsira um texto: ')
     texto.append(inserido)
     if inserido == '.':
-        print(len(texto))
+        print(f'\nSeu texto possui {len(texto)} parágrafos.')
         break

@@ -10,14 +10,16 @@ Portanto, depois do número-alvo escolhido inicialmente, seu programa deve inici
 Ou seja, para cada chute
 '''
 
-valor = int(input())
+valor = int(input('Insira um número para seu amigo adivinhar: '))
+print('\n\n\n\n\n\n\n')
+
 
 while True:
-    chute = int(input())
+    chute = int(input('\nTente acertar o número: '))
     if chute == valor:
-        print('igual')
+        print('\nAcertou!!!')
         break
     elif chute < valor:
-        print('maior')
+        print('\nÉ maior!')
     else:
-        print('menor')
+        print('\nÉ menor')

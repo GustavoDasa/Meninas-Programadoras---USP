@@ -6,18 +6,18 @@ O aniversariante consegue apagar apenas uma vela de cada vez'
 '''
 
 
-anos = int(input()) #entrada do valor de anos completados
+anos = int(input("Insira as velas que irá apagar: ")) #entrada do valor de anos completados
 
 velasApagadas = 0
 
 while velasApagadas < anos:
-    x = len(input())
+    x = len(input('\nAssopre forte! "fuh" : '))
     if x > 6:
-        print('bom sopro!')
+        print('\nbom sopro!')
         velasApagadas += 1
     elif x >= 4:
-        print('um pouco mais de força no sopro!')
+        print('\num pouco mais de força no sopro!')
     else:
-        print('precisa de muito mais força no sopro!')
+        print('\nprecisa de muito mais força no sopro!')
 
-print('Parabéns para pelo seu aniversário de',a,'anos!')
+print('\nParabéns para pelo seu aniversário de',anos,'anos!\n')

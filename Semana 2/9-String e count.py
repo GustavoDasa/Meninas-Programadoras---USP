@@ -2,13 +2,15 @@
 Contando ocorrências de uma substring em uma string
 '''
 
-encontrar = input() # texto que queremos encontrar
+print('\nContando ocorrências de uma substring em uma string\n')
 
-texto = input() # texto onde iremos procurar
+encontrar = input('\nInsira o texto que quer encontrar: ') # texto que queremos encontrar
+
+texto = input('\nInsira um texto: ') # texto onde iremos procurar
 
 normal = texto.count(encontrar)  # busca de valores com correspondência exata
 
 capit = texto.lower().count(encontrar.lower())   # busca de valores com correspondência geral
 
-print(normal)
-print(capit)
+print(f'\nFoi encontrado {normal} exatos.')
+print(f'Foi encontrado {capit} parecidos.')

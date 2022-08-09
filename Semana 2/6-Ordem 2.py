@@ -1,9 +1,7 @@
-'''
-Enquanto não chegar um ponto final Seu programa deve ler entradas do usuário continuamente
-'''
+print('\nEnquanto não chegar um ponto final o programa deve ler entradas do usuário continuamente\n')
 
 while True:
-    entrada = input()
+    entrada = input('\nInsira um texto: ')
     if entrada == '.':
-        print('ok')
+        print('\nOk\n')
         break

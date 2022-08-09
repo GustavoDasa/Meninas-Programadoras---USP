@@ -6,14 +6,15 @@ encerra com '.'
 
 '''
 
+print('\nDada uma palavra, o programa deve ler um conjunto de linhas e verificar quantas vezes aquela palavra se repete no texto. Encerre com "."\n')
 
-procurar = input()
+procurar = input('\nInsira o que será buscado: ')
 
 repet = []
 
 while True:
-    inserir = input()
+    inserir = input('\nInsira o texto: ')
     repet.append(inserir.count(procurar))
     if inserir == '.':
-        print(sum(repet))
+        print(f'\nSua busca foi encontrada {sum(repet)} vezes')
         break

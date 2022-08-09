@@ -1,4 +1,3 @@
-darq1 = {}
 darq2 = {
     1: '1-Bolo de Aniversário',
     2: '2-Carteira - if while',
@@ -15,22 +14,21 @@ darq2 = {
 darq3 = {}
 darq4 = {}
 
-dsem = {1: 'Semana 1', 2: 'Semana 2', 3: 'Semana 3', 4: 'Semana 4'}
-dsarq = {1: darq1, 2: darq2, 3: darq3, 4: darq4}
+dsem = {2: 'Semana 2', 3: 'Semana 3', 4: 'Semana 4'}
+dsarq = {2: darq2, 3: darq3, 4: darq4}
 
-darq2[4]
 
 semana = 0
 arq = 0
 print(
-    'Para selecionar um arquivo para rodar, navegue no diretório inserindo o valor correpondente.\n\nPara maior compreensão, visualize o arquivo no diretório antes de executá-lo.'
+    'Para selecionar um arquivo para rodar, navegue no diretório inserindo o valor correpondente.\n\nPara maior compreensão, visualize o arquivo no diretório antes de executá-lo.\n'
 )
 
 
 def Navegar():
     global x, arq, semana
     for i in dsem:
-        print(i, 'para: ', dsem[i])
+        print(i, '-', dsem[i])
 
     semana = int(input('\nInsira o valor da "Semana" correpondente: '))
     x = dsarq[semana]
@@ -46,7 +44,8 @@ while True:
         Navegar()
         exec(open(f'Semana {semana}/{x[arq]}.py').read())
     except:
-        print('Tente Novamente!')
+        print('\nTente Novamente!\n')
         continue
     finally:
-        print("Volte do início...")
+        print("\nVolte do início...\n")
+
