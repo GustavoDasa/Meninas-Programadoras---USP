@@ -13,8 +13,8 @@ while (timeA < 25 and timeB < 25) or abs(timeA-timeB)<2:
     p = int(input(f'\nRodada {rodada+1}: '))
     if p == 1:
         timeA += 1
-        rodada +=1
     else:
         timeB +=1
-        rodada +=1
+      
+    rodada +=1
 print(f'\nTime A {timeA} x {timeB} Time B')
