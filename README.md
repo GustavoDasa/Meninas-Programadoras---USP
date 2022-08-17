@@ -4,7 +4,7 @@ Soluções dos exercícios práticos do Curso Meninas programadoras USP. Monitor
 O arquivo "Main.py" é o script de utilização do replit para execução online compartilhada. Nele você pode executar um
 código específico seguindo as instruções contidas nele.
 
-É aconselhável a vizualização do arquivo antes da execução.
+É aconselhável a visualização do arquivo antes da execução.
 
 
 Utilize o link abaixo para acessá-lo:
