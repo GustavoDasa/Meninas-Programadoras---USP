@@ -21,8 +21,7 @@ darq3 = {
     7:'7-Micos Game',
     8:'8-Soletrando até acertar',  
     9:'9-SOS Morse',  
-    10:'10-Square Root',
-    11:'11-Uma letra de cada vez'}
+    10:'10-Uma letra de cada vez'}
 
 darq4 = {}
 
