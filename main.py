@@ -24,9 +24,17 @@ darq3 = {
     10:'10-Square Root',
     11:'11-Uma letra de cada vez'}
 
-darq4 = {}
+darq4 = {
+    1: '1-Contador',
+    2: '2-Contador 2',
+    3: '3-Contador 3',
+    4: '4-Histograma',
+    5: '5-Listas 2D',
+    6: '6-Ordem na bagunça',
+    7: '7-Tabuada flex',
+    8: '8-Zeros 2D'}
 
-dsem = {2: 'Semana 2' , 3: 'Semana 3'}#  }, 4: 'Semana 4'}
+dsem = {2: 'Semana 2' , 3: 'Semana 3', 4: 'Semana 4'}
 dsarq = {2: darq2, 3: darq3, 4: darq4}
 
 semana = 0
