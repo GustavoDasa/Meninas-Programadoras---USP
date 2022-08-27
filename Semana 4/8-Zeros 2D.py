@@ -8,4 +8,4 @@ for i in range(tamanho):
   if sum(lista[i])!=0:
     a='False'
 
-print(a)
+print(a) 

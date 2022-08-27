@@ -34,8 +34,15 @@ darq4 = {
     7: '7-Tabuada flex',
     8: '8-Zeros 2D'}
 
-dsem = {2: 'Semana 2' , 3: 'Semana 3', 4: 'Semana 4'}
-dsarq = {2: darq2, 3: darq3, 4: darq4}
+darq5 = {
+    1: '1-Infinito enquanto dure',
+    2: '2-Loud annoying',
+    3: '3-Participação monitoria',
+    4: '4-Passagem kids'
+}
+
+dsem = {2: 'Semana 2' , 3: 'Semana 3', 4: 'Semana 4', 5:'Avaliacao Final'}
+dsarq = {2: darq2, 3: darq3, 4: darq4, 5: darq5}
 
 semana = 0
 arq = 0
@@ -62,7 +69,7 @@ def Navegar():
 while True:
     try:
         Navegar()
-        exec(open(f'Semana {semana}/{x[arq]}.py').read())
+        exec(open(f'{dsem[semana]}/{x[arq]}.py').read())
     except:
         print('\nTente Novamente!\n')
         continue
